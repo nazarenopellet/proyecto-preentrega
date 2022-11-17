@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*inicio*/
+.bienvenidos{
+align-items: center;
+}
+
+body {
+  background-image: url(../img/jeffrey-dahmer-1426684.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20em;
+}
+body .portada-principal {
+  text-align: start;
+  padding: inline 20vh;
+  border-radius: 0%;
+}
+
+/*titulo-secundario*/
+.titulo-secundario {
+  position: absolute;
+  top: 63px;
+  left: 2%;
+  text-align: end;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/*footer*/
+
+.margen-abajo {
+  margin-bottom: 10px;
+  margin-top: -16px;
+}
+
+.footer {
+  padding: 5px;
+  color: white;
+  text-align: center;
+  height: 130px;
+}
+
+/*---header---*/
+.header {
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  height: 57.4px;
+}
+.header .titulo-secundario {
+  align-items: center;
+  left: 50%;
+  font-size: 30px;
+  text-align: start;
+}
+
+/*img-index*/
+.img-index {
+  height: 300px;
+  width: auto;
+  position: relative;
+  top: 10px;
+  float: left;
+  margin-right: 15px;
+}
+
+/*img-parrafo*/ /*media*/
+.img-parrafo1 {
+  border-radius: 3%;
+  padding: 3%;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media screen and (min-width: 320pxp) {
+  .img-parrafo1 .img-parrafo1 bg-white {
+    padding-top: 20%;
+    border-radius: 100%;
+    background-color: white;
+    height: 50%;
+  }
+}
+
+/*img-parrafo-2*/
+.img-parrafo-2 {
+  border-radius: 30px;
+  padding: 3%;
+  height: 950px;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media screen and (min-width: 320px) {
+  .img-parrafo-2 .img-parrafo-2 {
+    background-color: white;
+    overflow: scroll;
+  }
+}
+
+/*img-victimas*/
+.img-victimas {
+  height: 500px;
+  width: auto;
+  position: relative;
+  top: 5px;
+  float: left;
+  margin-right: 15px;
+}
+
+/*img-parrafo-3*/
+.img-parrafo-3 {
+  border-radius: 30px;
+  padding: 3%;
+  height: 950px;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+@media screen and (min-width: 320px) {
+  .img-parrafo-3 .img-parrafo-3 {
+    background-color: white;
+    overflow: scroll;
+  }
+}
+
+/*img-parrafo-4*/
+.img-parrafo-4 {
+  border-radius: 30px;
+  padding: 3%;
+  height: 950px;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+@media screen and (min-width: 320px) {
+  .img-parrafo-4 .img-parrafo-4 {
+    background-color: white;
+    overflow: scroll;
+  }
+}
+
+.img4 {
+  size: 500px;
+}
+
+/*img-parrafo-5*/
+.img-parrafo-5 {
+  border-radius: 30px;
+  padding: 3%;
+  height: 700px;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+@media screen and (min-width: 320px) {
+  .img-parrafo-5 .img-parrafo-5 {
+    background-color: white;
+    overflow: scroll;
+  }
+}
+
+/*img-muerte*/
+.img-muerte {
+  height: 300px;
+  width: auto;
+  position: relative;
+  top: 5px;
+  float: left;
+  margin-right: 15px;
+}
+
+/*---navbar-list---*/
+.navbar-list {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  clear: both;
+  background-color: white;
+  height: 57px;
+  width: 580px;
+  position: relative;
+  position: absolute;
+  top: 0;
+  position: fixed;
+  right: 0px;
+}
+.navbar-list .navbar-item {
+  text-align: center;
+  justify-content: space-between 10px;
+  transition: all 0.5s;
+  padding: 15PX;
+}
+
+/*color de las letras de la barra nav*/
+.navbar-nav .nav-link.active {
+  color: white;
+  justify-content: baseline;
+}
+
+/*navbar*/
+.navbar-toggler {
+  background-color: white;
+}
+.navbar-toggler .navbar-brand {
+  color: rgb(255, 255, 255);
+}
+.navbar-toggler .nav-item {
+  padding: 15px;
+}
+.navbar-toggler .navbar-expand-xl {
+  height: 80px;
+}
+.navbar-toggler .nav-link.active:hover {
+  color: black;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  size: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

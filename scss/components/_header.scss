@@ -1,0 +1,17 @@
+/*---header---*/
+
+.header 
+{background-color: white;
+    color: white;
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 57.4px;
+
+    .titulo-secundario{
+        align-items: center;
+        left: 50%;
+        font-size: 30px;
+        text-align: start;
+    }
+}

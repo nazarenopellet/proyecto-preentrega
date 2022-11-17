@@ -1,0 +1,18 @@
+@import "./utils/variable";
+@import "./utils/mixin";
+
+@import "./base/base";
+
+
+@import "./components/tarjeta";
+@import "./components/header";
+@import "./components/img";
+@import "./components/navbar";
+    
+
+
+@import "./pages/index";
+@import "./pages/sufamilia";
+@import "./pages/suinfancia";
+@import "./pages/sumuerte";
+@import "./pages/susvictimas";

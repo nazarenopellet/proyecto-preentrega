@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ul, 
+ol{
+
+list-style: none;
+}
+
+
+a {
+text-decoration: none;
+}
+
+
+body{
+    background-image: url(../img/jeffrey-dahmer-1426684.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20em;
+    
+
+    .portada-principal{
+        text-align: start;
+        padding: inline 20vh;
+        border-radius: 0%;
+        
+        
+    }
+}

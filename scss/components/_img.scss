@@ -1,0 +1,150 @@
+
+    /*img-index*/
+
+    .img-index{
+        height: 300px;
+        width: auto;
+        position: relative; top: 10px;
+    float: left;
+    margin-right: 15px;
+    }
+
+    /*img-parrafo*/ /*media*/
+    .img-parrafo1{
+        border-radius: 3%;
+        padding: 3%;
+        margin-top: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+        @media screen and (min-width: 320pxp){
+        
+            .img-parrafo1 bg-white{
+                padding-top: 20%;
+                border-radius: 100%;
+                background-color: white;
+                height: 50% ;
+            }
+        }
+    }
+
+    
+    /*img-parrafo-2*/
+
+
+    .img-parrafo-2{
+        border-radius: 30px;
+        padding: 3%;
+        height: 950px;
+        margin-top: 25px;
+        margin-left: 10%;
+        margin-right: 10%;
+    
+        @media screen and (min-width: 320px){
+        
+            .img-parrafo-2 {
+                
+                background-color: white;
+                overflow: scroll
+
+
+                
+            }
+        }
+
+
+    }
+    /*img-victimas*/
+
+    .img-victimas{
+        height: 500px;
+        width: auto;
+        position: relative; top: 5px; 
+    float: left;
+    margin-right: 15px;
+    }
+    
+    /*img-parrafo-3*/
+
+
+.img-parrafo-3{
+    border-radius: 30px;
+    padding: 3%;
+    height: 950px;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+    @media screen and (min-width: 320px){
+    
+        .img-parrafo-3 {
+            
+            background-color: white;
+            overflow: scroll
+
+
+            
+        }
+    }
+
+}
+    
+    /*img-parrafo-4*/
+
+.img-parrafo-4{
+    border-radius: 30px;
+    padding: 3%;
+    height: 950px;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+
+    @media screen and (min-width: 320px){
+
+        .img-parrafo-4 {
+            
+            background-color: white;
+            overflow: scroll
+
+
+            
+        }
+    }
+}
+.img4{
+    size: 500px;
+}
+
+/*img-parrafo-5*/
+
+.img-parrafo-5{
+    border-radius: 30px;
+    padding: 3%;
+    height: 700px;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    @media screen and (min-width: 320px){
+    
+        .img-parrafo-5 {
+            
+            background-color: white;
+            overflow: scroll
+
+
+            
+        }
+    }
+}
+    
+    /*img-muerte*/
+
+.img-muerte{
+    height: 300px;
+    width: auto;
+    position: relative; top: 5px; 
+float: left;
+margin-right: 15px;
+}

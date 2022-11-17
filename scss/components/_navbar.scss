@@ -1,0 +1,71 @@
+/*---navbar-list---*/
+
+.navbar-list
+{
+    
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    clear: both; 
+    background-color: white; height: 57px; width: 580px; position: relative; 
+    position: absolute; top: 0;
+    position: fixed;
+    right: 0px;
+
+    .navbar-item{
+        text-align: center; 
+        justify-content: space-between 10px;
+        transition: all 0.5s; 
+        padding: 15PX
+        }
+    
+    }
+
+  /*color de las letras de la barra nav*/
+
+  .navbar-nav .nav-link.active{
+    color: white;
+    justify-content: baseline;
+    }
+
+    /*navbar*/
+
+.navbar-toggler{
+    
+    background-color: white;
+    
+    
+    .navbar-brand{
+        color: rgb(255, 255, 255);
+    
+    }
+    
+    
+    .nav-item{
+        padding: 15px;
+    
+    }
+    
+    
+    .navbar-expand-xl{
+        height: 80px;
+    
+    }
+    
+    
+        
+    .nav-link.active:hover{
+        
+        color: black;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        size: 3rem;
+    }
+}
+
+
+
+
+
