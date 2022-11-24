@@ -157,36 +157,28 @@ body {
 }
 
 
-
-
-
-
-
-/*img-parrafo-2*/
-.img2 {
-    right: 200px;
-}
+/*img parrafo2*/
 
 .img-parrafo-2 {
     border-radius: 30px;
     padding: 3%;
-    height: 950px;
+    height: 1300px;
     margin-top: 25px;
     margin-left: 10%;
     margin-right: 10%;
-
+    padding-right: 20px;
 }
 
-@media screen and (min-width: 320px) {
-
-    .img-parrafo-2 {
-
-        background-color: white;
-        overflow: scroll
+@media screen and (min-width: 320){
+    .img-parrafo-2{
+        min-height: auto;
     }
+    
 }
-
-
+.img2{
+    padding-left: 10px;
+    padding-right: 100px;
+}
 
 
 /*img-victimas*/
@@ -282,7 +274,7 @@ body {
     width: auto;
     position: relative;
     top: 5px;
-    float: left;
+    float: center;
     margin-right: 15px;
 }
 
