@@ -108,7 +108,42 @@ body .portada-principal {
     overflow: scroll;
   }
 }
+@media screen and (max-width: 1200px){
+  .img-parrafo-2 {
+      height: 800px;
+      overflow: scroll
 
+  }
+  
+}
+
+@media screen and (min-width: 720px){
+  .text2{
+      align-items: center;
+      padding-left: 50px;
+  }
+  
+}
+
+
+@media screen and (max-width:720px) {
+  .text2{
+      padding-top: 460px;
+      align-items: center
+      ;
+      
+  }
+}
+
+
+@media screen and (max-width:720px){
+  
+.img22{
+  padding: 5px;
+  height: 150px;
+  margin-left: 130px;
+}
+}
 /*img-victimas*/
 .img-victimas {
   height: 500px;
@@ -233,4 +268,4 @@ body .portada-principal {
   size: 3rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */

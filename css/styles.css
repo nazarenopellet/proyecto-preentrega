@@ -172,9 +172,7 @@ body {
 @media screen and (max-width: 1200px){
     .img-parrafo-2 {
         height: 2800px;
-        padding-left: px;
-    
-
+        overflow: scroll
     }
     
 }
