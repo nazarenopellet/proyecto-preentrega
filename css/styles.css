@@ -292,7 +292,12 @@ body {
         overflow: scroll
     }
 }
-
+@media screen and (min-width: 720px) {
+    .img5{
+        height: 350px;
+    }
+    
+}
 /*img-muerte*/
 
 .img-muerte {
