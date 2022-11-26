@@ -169,40 +169,42 @@ body {
     padding-right: 20px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .img-parrafo-2 {
-        height: 2800px;
+        height: 2000px;
         overflow: scroll
     }
-    
+
 }
 
-@media screen and (min-width: 720px){
-    .text2{
+@media screen and (min-width: 720px) {
+    .text2 {
         align-items: center;
         padding-left: 50px;
     }
-    
+
 }
 
 
 @media screen and (max-width:720px) {
-    .text2{
-        padding-top: 460px;
-        align-items: center
-        ;
-        
+    .text2 {
+        padding-top: 40px;
+        align-items: center;
+        right: 200px;
     }
 }
 
 
-@media screen and (max-width:720px){
+@media screen and (max-width:720px) {
+
+    .img22 {
     
-.img22{
-    padding: 5px;
-    height: 150px;
-    margin-left: 130px;
-}
+        padding: 5px;
+        height: 150px;
+        width: 200px;
+
+
+    }
 }
 
 /*img-victimas*/
@@ -361,6 +363,6 @@ body {
 }
 
 
-.iframe{
+.iframe {
     left: 50%;
 }
