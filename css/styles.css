@@ -89,6 +89,16 @@ a {
 
 /*---portada---*/
 
+body .body1{
+
+    background-image: url(../img/jeffrey-dahmer-1426684.jpg); opacity: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20em;
+
+}
+
 body {
     background-image: url(../img/jeffrey-dahmer-1426684.jpg);
     background-repeat: no-repeat;
